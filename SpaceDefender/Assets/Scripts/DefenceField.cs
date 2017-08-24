@@ -63,7 +63,7 @@ public class DefenceField : MonoBehaviour {
 
     IEnumerator timer(){
         isDamagable = false;
-        yield return new WaitForSeconds(1.5);
+        yield return new WaitForSeconds(1.5f);
         isDamagable = true;
     }
 }
