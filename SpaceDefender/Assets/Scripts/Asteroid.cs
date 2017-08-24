@@ -11,11 +11,11 @@ public class Asteroid : MonoBehaviour {
 
 
     // для тестов на пк
-   /* void OnMouseDown(){
+   void OnMouseDown(){
         
 
         Hit();
-    } */
+    } 
 
 
 

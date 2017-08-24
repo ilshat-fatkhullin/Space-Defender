@@ -17,7 +17,7 @@ public class TouchSystem : MonoBehaviour {
 	void Update () {
 
 
-        // detecting touch
+        /*  // detecting touch
         if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended){
 
 
@@ -39,7 +39,7 @@ public class TouchSystem : MonoBehaviour {
 
 
 
-        }
+        } */
 		
 	}
 }
