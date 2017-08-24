@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 178
   Total Field Removals = 793
-  Total Method Removals = 10604
+  Total Method Removals = 10603
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -9453,7 +9453,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 49
   Total Field Removals = 54
-  Total Method Removals = 4317
+  Total Method Removals = 4316
   References Removed = 0
 ---------------------------------------------------
     <PrivateImplementationDetails>
@@ -13780,7 +13780,6 @@ Summary:
         set_drag(System.Single)
         set_fixedAngle(System.Boolean)
         set_freezeRotation(System.Boolean)
-        set_gravityScale(System.Single)
         set_inertia(System.Single)
         set_interpolation(UnityEngine.RigidbodyInterpolation2D)
         set_isKinematic(System.Boolean)

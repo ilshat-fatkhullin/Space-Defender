@@ -45,6 +45,21 @@ TagManager:
   - name: Background
     uniqueID: 4272321661
     locked: 0
+  - name: 1hp
+    uniqueID: 298134967
+    locked: 0
+  - name: 2hp
+    uniqueID: 3906319349
+    locked: 0
+  - name: 3hp
+    uniqueID: 2319945457
+    locked: 0
+  - name: 4hp
+    uniqueID: 3019096665
+    locked: 0
+  - name: 5hp
+    uniqueID: 4028249619
+    locked: 0
   - name: FrontGround
     uniqueID: 1257812057
     locked: 0

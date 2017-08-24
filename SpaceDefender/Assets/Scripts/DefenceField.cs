@@ -5,6 +5,8 @@ using UnityEngine;
 public class DefenceField : MonoBehaviour {
 
     private int health;
+    public GameObject[] hp;
+    private bool isDamagable = true;
 
 	// Use this for initialization
 	void Start () {
@@ -22,13 +24,46 @@ public class DefenceField : MonoBehaviour {
 
     }
 
+
+
     public void DamageField(){
+
+
         health--;
         // GameOver
-        if(health <= 0){
+        switch (health){
 
 
 
+            case 5:
+                hp[4].SetActive(true);
+                break;
+            case 4:
+                hp[4].SetActive(false);
+                hp[3].SetActive(true);
+                break;
+            case 3:
+                hp[3].SetActive(false);
+                hp[2].SetActive(true);
+                break;
+            case 2:
+                hp[2].SetActive(false);
+                hp[1].SetActive(true);
+                break;
+            case 1:
+                hp[1].SetActive(false);
+                hp[0].SetActive(true);
+                break;
+            case 0: 
+
+                // GAME OVER
+                break;
         }
+    }
+
+    IEnumerator timer(){
+        isDamagable = false;
+        yield return new WaitForSeconds(1.5);
+        isDamagable = true;
     }
 }
