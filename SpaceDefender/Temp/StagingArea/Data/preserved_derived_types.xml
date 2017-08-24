@@ -1,0 +1,8 @@
+<linker>
+<assembly fullname="Assembly-CSharp">
+<type fullname="Asteroid" preserve="all"/>
+<type fullname="PlayerScore" preserve="all"/>
+<type fullname="Spawner" preserve="all"/>
+<type fullname="TouchSystem" preserve="all"/>
+</assembly>
+</linker>
