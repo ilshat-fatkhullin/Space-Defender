@@ -9,16 +9,6 @@ public class Asteroid : MonoBehaviour {
 
 
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 
     // для тестов на пк
    /* void OnMouseDown(){
@@ -26,6 +16,9 @@ public class Asteroid : MonoBehaviour {
 
         Hit();
     } */
+
+
+
 
     public void Hit(){
 

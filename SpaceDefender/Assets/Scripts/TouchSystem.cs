@@ -34,7 +34,10 @@ public class TouchSystem : MonoBehaviour {
                 if(touchObject.CompareTag("Asteroid")){
                     touchObject.GetComponent<Asteroid>().Hit();
                 }
+
             }
+
+
 
         }
 		
